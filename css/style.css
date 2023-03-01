@@ -1,0 +1,146 @@
+body{
+  background-color: #C8FFD4;
+}
+h1{
+  color: #5DA7DB;
+  font: 3em "Fira Sans", serif;
+  padding-left: 5px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: darkcyan;
+  text-decoration: underline;
+
+}
+abbr{
+  text-decoration: none;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #E1FFEE;
+  border-width: 8px;
+  width: 5%;
+}
+.intro{
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  font-style: italic;
+  padding-left: 10px;
+}
+.bio{
+  font-family: Times, serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading{
+  color: #5DA7DB;
+  font: 2em "Fira Sans", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+legend{
+  background-color: #EEF1FF;
+  border: 1px solid darkgray;
+  border-radius: 7px;
+  color: #5DA7DB;
+  font: 2em "Fira Sans", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+ol{
+  font: small-caps 1.2em sans-serif;
+}
+ul{
+  font: small-caps bold 1.2em sans-serif;
+}
+.tab-attri{
+  background-color: #B7E5DD;
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 7px;
+  font: small-caps bold 1em sans-serif;
+  margin-left: 20px;
+  padding: 10px;
+}
+.contact{
+  font: bold 1em "Courier New", monospace;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form{
+  background-color: rgba(183, 229, 221, 0.5);
+  border-radius: 7px;
+  font: italic 1em "Courier New", monospace;
+  padding: 20px;
+}
+fieldset{
+  border-radius: 7px;
+  margin: 20px;
+}
+.submit{
+  border-width: 1px;
+  font: small-caps bold 1em sans-serif;
+  margin-top: 10px;
+  -moz-box-shadow: 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px #777777;
+  box-shadow: 5px 5px #777777;
+}
+.form-box{
+  background-color: #EEF1FF;
+  border-radius: 3px;
+}
+
+.form-box:hover{
+  background-color: #B7E5DD;
+}
+.submit:active{
+  -moz-box-shadow: inset 0 0 10px #777777;
+  -webkit-box-shadow: inset 0 0 10px #777777;
+  box-shadow: inset 0 0 10px #777777;
+}
+
+iframe{
+  min-height: 10%;
+  max-height: 15%;
+  min-width: 30%;
+  max-width: 40%;
+  border-radius: 7px;
+  border-width: 2px;
+  border-color: darkgray;
+}
+tr.head{
+  color: #fff;
+  background-color: #90b4d6;
+  font: small-caps bold 1em sans-serif;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666;
+  letter-spacing: 0.15em;
+}
+.even{
+  background-color: #e8eff5;
+  font: 1em sans-serif;
+  text-align: center;
+}
+.odd{
+  background-color: #CBF1F5;
+  font: 1em sans-serif;
+  text-align: center;
+}
+.tab{
+  background-color: darkgray;
+  border-radius: 7px;
+  border-spacing: 2px;
+  margin: 20px;
+}
+.data{
+  padding: 5px;
+}
